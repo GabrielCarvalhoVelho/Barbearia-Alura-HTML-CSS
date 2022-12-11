@@ -163,7 +163,7 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
-	color: rgba(0, 0, 0, 0.3);
+	text-shadow: 2px 2px #FFFF00;
 }
 
 .principal {
@@ -234,6 +234,7 @@ td, th {
 	width: 60%;
 	opacity: 0.7;
 	transition: 300ms;
+	box-shadow: 10px 10px 20px  #000000; /* X Y blur intensidade da borda cor*/
 }
 
 .imagem-beneficios:hover {
